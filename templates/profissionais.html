@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123c35">
+  <meta name="description" content="Encontre pedreiros, eletricistas, pintores e outros profissionais em Rondonópolis.">
+  <title>Profissionais | Rondonópolis Serviços</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Rondonópolis Serviços — início"><span class="logo-icon">RS</span><span class="logo-copy">Rondonópolis <strong>Serviços</strong></span></a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="profissionais.html" class="active" aria-current="page">Profissionais</a>
+        <a href="vagas.html">Vagas</a>
+      </nav>
+      <a href="vagas.html#oportunidades" class="btn btn-primary btn-sm header-cta">Explorar vagas <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> Talento perto de você</div>
+        <h1>Quem faz bem-feito<br><span>está por aqui.</span></h1>
+        <p>Encontre profissionais locais para tirar seu projeto do papel.</p>
+        <div class="breadcrumb"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Profissionais</span></div>
+      </div>
+      <div class="page-hero-decoration" aria-hidden="true">01</div>
+    </section>
+    <section class="container listing-section">
+      <div class="listing-heading"><div><span class="section-kicker">Encontre seu especialista</span><h2>Profissionais disponíveis</h2></div><p id="professional-count" class="result-count" aria-live="polite"></p></div>
+      <div class="filter-panel">
+        <label class="search-field"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">Buscar profissional</span><input id="busca-prof" type="search" placeholder="Buscar por nome ou especialidade" autocomplete="off"></label>
+        <label class="select-field"><span class="sr-only">Especialidade</span><select id="filtro-especialidade"><option value="">Todas as especialidades</option></select></label>
+        <label class="select-field"><span class="sr-only">Bairro</span><select id="filtro-bairro-prof"><option value="">Todos os bairros</option></select></label>
+        <label class="select-field"><span class="sr-only">Tipo de trabalho</span><select id="filtro-tipo"><option value="">Qualquer modalidade</option><option value="diaria">Aceita diária</option><option value="contrato">Aceita contrato</option></select></label>
+      </div>
+      <div class="cards-grid listing-grid" id="professional-grid"></div>
+    </section>
+    <section class="callout container">
+      <div class="callout-icon" aria-hidden="true">✳</div>
+      <div><span class="section-kicker">Faça parte da rede</span><h2>Você trabalha com construção ou reforma?</h2><p>Em breve, mais profissionais da cidade poderão mostrar seu trabalho por aqui.</p></div>
+      <a href="vagas.html" class="btn btn-primary">Ver oportunidades <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-inner"><a href="index.html" class="footer-brand">RS <span>Rondonópolis Serviços</span></a><p>Conectando talentos locais a novas oportunidades.</p><span class="footer-location">Rondonópolis · MT</span></div><div class="footer-bottom"><span>© 2026 Rondonópolis Serviços</span><span>Dados demonstrativos do projeto</span></div></footer>
+  <script src="../static/js/data.js"></script>
+  <script src="../static/js/app.js"></script>
+</body>
+</html>
